@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f1f1;
+}
+#page1 {
+  background: rgb(255, 235, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 235, 233, 1) 0%,
+    rgba(255, 226, 213, 1) 48%,
+    rgba(255, 223, 202, 1) 100%
+  );
+}
+nav {
+  padding: 1vw 6vw;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5vw;
+  border-radius: 20px;
+  background-color: white;
+}
+#left {
+  display: flex;
+  align-items: center;
+}
+#right {
+  display: flex;
+  align-items: center;
+}
+#right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2vw;
+  padding: 0 1.5vw;
+}
+#right ul li a {
+  color: grey;
+  text-decoration: none;
+  font-weight: 600;
+}
+#right ul li a:hover {
+  color: black;
+  cursor: pointer;
+}
+#right button {
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(243, 127, 45);
+  padding: 1vw 2vw;
+  margin: 0 1vw;
+  color: white;
+  cursor: pointer;
+}
+#right button:hover {
+  background-color: rgb(247, 115, 21);
+}
+#pg1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6vw;
+}
+#pg1-left {
+  width: 50%;
+  padding: 2vw;
+}
+#pg1-left h1 {
+  font-size: 4vw;
+}
+#pg1-left p {
+  font-size: 1vw;
+  color: grey;
+  margin: 1vw 0;
+}
+#pg1-left button {
+  border: none;
+  font-size: 1vw;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(243, 127, 45);
+  padding: 1vw 2vw;
+  margin: 3vw 0;
+  color: white;
+  cursor: pointer;
+}
+#pg1-right {
+  width: 50%;
+}
+#pg1-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bottom-box {
+  width: 100%;
+  padding: 2vw;
+}
+#pg1-bottom-title {
+  font-size: 1.2vw;
+  color: grey;
+}
+#company-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+#company-logos img {
+  width: 10vw;
+  height: 10vw;
+  margin: 2vw;
+  border-radius: 50%;
+}
