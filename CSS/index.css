@@ -44,7 +44,7 @@ nav .container {
   padding: 0 1.5vw;
 }
 #right ul li a {
-  color: grey;
+  color: rgb(106, 106, 106);
   text-decoration: none;
   font-weight: 600;
 }
@@ -98,28 +98,112 @@ nav .container {
 #pg1-right {
   width: 50%;
 }
+#pg1-mid {
+  position: absolute;
+  right: 400px;
+  transform: translateY(-50px);
+  display: flex;
+}
+#pg1-mid-box1 {
+  width: 200px;
+  height: 80px;
+  background-color: red;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px grey;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  gap: 1vw;
+  transform: translate(750px, -300px);
+  font-size: 1vw;
+}
+#pg1-mid-box1 img {
+  width: 4vw;
+  height: auto;
+  border-radius: 50%;
+}
+#pg1-mid-box2 {
+  width: 300px;
+  height: 120px;
+  background-color: red;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px grey;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  gap: 1vw;
+}
+#pg1-mid-box2 img {
+  width: 5vw;
+  height: auto;
+  border-radius: 50%;
+}
+#pg1-mid-box3 {
+  height: max-content;
+  background-color: red;
+  border-radius: 200px;
+  transform: translate(250px, -100px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#pg1-mid-box3 img {
+  width: 8vw;
+  height: auto;
+  border-radius: 50%;
+  border: 15px solid white;
+  margin: 1vw;
+}
+#pg1-mid-box3-title {
+  font-size: 1.1vw;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 3vw;
+}
 #pg1-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 53%,
+    rgba(255, 143, 118, 1) 100%
+  );
 }
 #bottom-box {
   width: 100%;
-  padding: 2vw;
+  padding: 2vw 9vw;
 }
-#pg1-bottom-title {
+#pg1-bottom-title h5 {
   font-size: 1.2vw;
-  color: grey;
+  padding: 1vw 0;
 }
 #company-logos {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   width: 50%;
+  gap: 2vw;
+  padding: 1vw 0;
 }
 #company-logos img {
-  width: 10vw;
-  height: 10vw;
-  margin: 2vw;
   border-radius: 50%;
+  box-shadow: 5px 5px 15px rgb(158, 158, 158);
+}
+#company-logos img:nth-child(1) {
+  height: 3vw;
+  width: 3vw;
+}
+#company-logos img:nth-child(2) {
+  height: 4vw;
+  width: 4vw;
+}
+#company-logos img:nth-child(3) {
+  height: 5vw;
+  width: 5vw;
+}
+#company-logos img:nth-child(4) {
+  height: 6vw;
+  width: 6vw;
 }
