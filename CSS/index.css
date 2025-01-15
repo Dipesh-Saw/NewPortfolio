@@ -207,3 +207,53 @@ nav .container {
   height: 6vw;
   width: 6vw;
 }
+#page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pg2-left {
+  width: 50%;
+  padding: 2vw;
+}
+#pg-2-box {
+  background-color: burlywood;
+  padding: 2vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.box-card {
+  background-color: lightcoral;
+  padding: 1vw;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  padding: 1vw;
+  background-color: white;
+  border-radius: 11px;
+}
+.card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-left img {
+  width: 7vw;
+  height: auto;
+  border-radius: 50%;
+}
+.card-right h2 {
+  margin: 1vw 0;
+}
+#pg2-right {
+  width: 50%;
+  padding: 2vw;
+}
