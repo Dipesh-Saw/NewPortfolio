@@ -98,13 +98,13 @@ nav .container {
 #pg1-right {
   width: 50%;
 }
-#pg1-mid {
+#floating-items {
   position: absolute;
   right: 400px;
   transform: translateY(-50px);
   display: flex;
 }
-#pg1-mid-box1 {
+#item1 {
   width: 200px;
   height: 80px;
   background-color: red;
@@ -117,12 +117,12 @@ nav .container {
   transform: translate(750px, -300px);
   font-size: 1vw;
 }
-#pg1-mid-box1 img {
+#item1 img {
   width: 4vw;
   height: auto;
   border-radius: 50%;
 }
-#pg1-mid-box2 {
+#item2 {
   width: 300px;
   height: 120px;
   background-color: red;
@@ -133,12 +133,12 @@ nav .container {
   padding: 1vw;
   gap: 1vw;
 }
-#pg1-mid-box2 img {
+#item2 img {
   width: 5vw;
   height: auto;
   border-radius: 50%;
 }
-#pg1-mid-box3 {
+#item3 {
   height: max-content;
   background-color: red;
   border-radius: 200px;
@@ -146,15 +146,16 @@ nav .container {
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 3px 3px 15px grey;
 }
-#pg1-mid-box3 img {
+#item3 img {
   width: 8vw;
   height: auto;
   border-radius: 50%;
   border: 15px solid white;
   margin: 1vw;
 }
-#pg1-mid-box3-title {
+#item3-title {
   font-size: 1.1vw;
   font-weight: 600;
   color: white;

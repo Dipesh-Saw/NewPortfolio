@@ -1,2 +1,120 @@
 @media screen and (max-width: 500px) {
+  nav {
+    padding: 4vw;
+  }
+  nav .container {
+    border-radius: 5px;
+  }
+  #logo h1 {
+    font-size: 3vw;
+    padding: 0 1vw;
+  }
+  #right ul li {
+    font-size: 2.5vw;
+  }
+  #right button {
+    font-size: 2.5vw;
+    border-radius: 5px;
+  }
+  #pg1 {
+    flex-direction: column;
+  }
+  #pg1-left {
+    width: 100%;
+  }
+  #pg1-left h1 {
+    font-size: 7vw;
+  }
+  #pg1-left p {
+    font-size: 3vw;
+  }
+  #pg1-left button {
+    font-size: 2.7vw;
+    border-radius: 5px;
+  }
+  #pg1-right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  }
+  #pg1-right img {
+    width: 70%;
+    height: auto;
+  }
+  #floating-items {
+    right: 275px;
+  }
+  #item1 {
+    display: none;
+  }
+  #item2 {
+    width: 205px;
+    height: 75px;
+    border-radius: 12px;
+    transform: translate(110px, -165px);
+  }
+  #item2 img {
+    width: 10vw;
+    margin-left: 1vw;
+  }
+  #item2 h4 {
+    font-size: 2.7vw;
+  }
+  #item2 p {
+    font-size: 2vw;
+  }
+  #item3 {
+    transform: translate(205px, -15px);
+  }
+  #item3 img {
+    width: 12vw;
+    border: 7px solid white;
+  }
+  #item3-title {
+    font-size: 1.7vw;
+  }
+  #pg1-bottom-title h5 {
+    font-size: 2.7vw;
+  }
+
+  #company-logos img:nth-child(1) {
+    height: 5vw;
+    width: 5vw;
+  }
+  #company-logos img:nth-child(2) {
+    height: 7vw;
+    width: 7vw;
+  }
+  #company-logos img:nth-child(3) {
+    height: 9vw;
+    width: 9vw;
+  }
+  #company-logos img:nth-child(4) {
+    height: 11vw;
+    width: 11vw;
+  }
+  #page2 {
+    display: block;
+  }
+  #pg2-left {
+    width: 100%;
+  }
+  #pg-2-box {
+    padding: 5vw;
+    gap: 4vw;
+    border-radius: 15px;
+  }
+  .box-card {
+    padding: 2vw;
+  }
+  .card-left img {
+    width: 15vw;
+  }
+  .card-right h2 {
+    font-size: 3vw;
+  }
+  .card-right p {
+    font-size: 2.5vw;
+  }
 }
